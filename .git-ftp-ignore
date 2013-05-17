@@ -1,8 +1,10 @@
 \.git-ftp-ignore
 \.gitignore
-/component.json
-/php/composer.json
-/php/composer.lock
+\.gitmodules
+\.gitkeep
+component\.json
+composer\.json
+composer\.lock
 /php/bin/
 /arquivos/
-/teste.php
+/teste\.php
