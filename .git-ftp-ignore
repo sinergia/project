@@ -8,3 +8,4 @@ composer\.lock
 /php/bin/
 /arquivos/
 /teste\.php
+README\.md
