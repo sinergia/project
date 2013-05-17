@@ -1,0 +1,8 @@
+\.git-ftp-ignore
+\.gitignore
+/component.json
+/php/composer.json
+/php/composer.lock
+/php/bin/
+/arquivos/
+/teste.php

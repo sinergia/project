@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+    RewriteEngine On
+
+    <IfModule mod_vhost_alias.c>
+      RewriteBase /
+    </IfModule>
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_php5.c>
+    php_flag display_errors On
+    php_flag allow_url_fopen On
+    php_flag short_open_tag On
+    php_flag file_uploads On
+    php_flag safe_mode Off
+    php_flag html_errors Off
+
+    php_value date.timezone America/Sao_Paulo
+    php_value default_charset UTF-8
+    php_value post_max_size 100M
+    php_value upload_max_filesize 100M
+    php_value max_file_uploads 500
+    php_value memory_limit -1
+</IfModule>

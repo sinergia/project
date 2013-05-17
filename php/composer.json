@@ -1,0 +1,19 @@
+{
+    "name": "empresa/projeto",
+    "description": "Projeto",
+    "authors": [
+        {
+            "name": "Marcos Neves",
+            "email": "marcos.neves@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "lib/"
+        }
+    },
+    "require": {
+        "analog/analog": "1.0.3",
+        "filp/whoops": "1.0.4"
+    }
+}
