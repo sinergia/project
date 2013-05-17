@@ -4,4 +4,4 @@
 require_once 'config.php';
 
 // imprime o Response
-echo $app->run();
+echo $app();

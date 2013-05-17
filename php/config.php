@@ -6,3 +6,5 @@
 
 // utiliza o autoload do composer, para auto carregar as classes
 require_once 'vendor/autoload.php';
+
+$app = new App\App();
