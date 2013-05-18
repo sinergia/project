@@ -22,6 +22,11 @@ class AppTest extends \PHPUnit_Framework_TestCase
 
     public function testAppShouldNotHaveConstructorArgs()
     {
-        
+        $r = new \ReflectionObject($this->app);
+        $constructor = $r->getConstructor();
+        if ($constructor) {
+            $constructorNumberOfRequiredParameters = $constructor->getNumberOfRequiredParameters();
+            $this->assertEquals(0, $constructorNumberOfRequiredParameters);
+        }
     }
 }
