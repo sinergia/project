@@ -1,3 +1,7 @@
+TODO:
+
+criar script que converte classes em apenas as declarações, sem a implementação, para servir de autocomplete.
+
 BUGS:
 
 O branch develop não possui vendors, pois o mesmo pode ser instalado separadamente por cada desenvolvedor.

@@ -29,4 +29,9 @@ class AppTest extends \PHPUnit_Framework_TestCase
             $this->assertEquals(0, $constructorNumberOfRequiredParameters);
         }
     }
+
+    public function _testEmpty()
+    {
+        
+    }
 }
