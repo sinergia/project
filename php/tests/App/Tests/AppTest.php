@@ -19,4 +19,9 @@ class AppTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertTrue(method_exists($this->app, "__invoke"));
     }
+
+    public function testAppShouldNotHaveConstructorArgs()
+    {
+        
+    }
 }
