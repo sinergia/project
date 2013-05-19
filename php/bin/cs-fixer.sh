@@ -7,3 +7,4 @@ else
 fi
 
 php-cs-fixer fix -v --level=all $args .
+git status
