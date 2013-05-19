@@ -2,10 +2,12 @@
 
 namespace App;
 
+use Sinergia\Helpers as H;
+
 class App
 {
     public function __invoke()
     {
-        include 'layout/app.php';
+        return H::render('layout/app');
     }
 }
