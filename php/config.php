@@ -7,4 +7,6 @@
 // utiliza o autoload do composer, para auto carregar as classes
 require_once 'vendor/autoload.php';
 
+set_include_path(__DIR__.'/tpl');
+
 $app = new App\App();
