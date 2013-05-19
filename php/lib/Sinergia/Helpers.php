@@ -12,7 +12,7 @@ class Helpers
     /**
      * @param $__FILE__
      * @param array $__VARS__
-     * @return string
+     * @return string | null
      */
     public static function render($__FILE__, $__VARS__ = array())
     {
@@ -22,6 +22,10 @@ class Helpers
         // add .php extensions when missing
         if ( pathinfo($__FILE__, PATHINFO_EXTENSION) != 'php') {
             $__FILE__ .= ".php";
+        }
+
+        if ( ! stream_resolve_include_path($__FILE__) ) {
+            return null;
         }
 
         $render = new Render();
