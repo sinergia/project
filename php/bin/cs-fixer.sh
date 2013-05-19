@@ -7,4 +7,8 @@ else
 fi
 
 php-cs-fixer fix -v --level=all $args .
-git status
+
+if [ "$1" == "do" ]
+then
+    git status
+fi
