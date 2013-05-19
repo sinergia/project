@@ -8,4 +8,4 @@
 <link rel="stylesheet" href="/assets/vendor/font-awesome/3.1.0/css/font-awesome-ie7.min.css">
 <![endif]-->
 
-<link rel="stylesheet" href="/assets/css/app.css">
+<link rel="stylesheet" href="/assets/css/app.css?<?=time()?>">
