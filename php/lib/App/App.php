@@ -11,6 +11,8 @@ class App
     {
         $request = new Request();
         $TPL = H::render($request->path ?: 'home');
-        return H::render('layout/app', compact('TPL'));
+        $output = H::render('layout/app', compact('TPL'));
+
+        return $output;
     }
 }
