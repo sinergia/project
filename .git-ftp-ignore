@@ -5,7 +5,12 @@
 component\.json
 composer\.json
 composer\.lock
-/php/bin/
-/arquivos/
-/teste\.php
+php/bin/.*
+arquivos/
+teste\.php
 README\.md
+cli-server\.php
+.*/tests/.*
+.*/test/.*
+.*/Tests/.*
+.*/Test/.*
