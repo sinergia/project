@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
     <meta name="description" content="">
+    <meta name="author" content="Marcos Neves">
     <meta name="viewport" content="width=device-width">
 
     <?php include '_styles.php' ?>
