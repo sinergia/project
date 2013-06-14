@@ -1,18 +1,12 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: neves
- * Date: 5/22/13
- * Time: 8:27 AM
- * To change this template use File | Settings | File Templates.
- */
 
 namespace Sinergia;
 
 use SplFileInfo, ArrayAccess;
 
 /**
- * Class Paths
+ * Class Paths to store relative paths to a root one.
+ *
  * @package Sinergia
  * @property SplFileInfo $tpl
  * @property SplFileInfo $sqlite
