@@ -6,7 +6,7 @@ else
     args="--dry-run $*"
 fi
 
-php-cs-fixer fix -v --level=all $args .
+php-cs-fixer fix --fixers=-short_tag -v --level=all $args ./php
 
 if [ "$1" == "do" ]
 then
