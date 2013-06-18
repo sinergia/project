@@ -41,6 +41,7 @@ class Invokeable
     public function __invoke($args = array())
     {
         $args = array_merge($this->getParameters(), $args);
+
         return call_user_func_array($this->callable, $args);
     }
 }

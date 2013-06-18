@@ -27,11 +27,13 @@ class Util
                 return new ReflectionFunction($callable);
             }
             list($class, $method) = explode("::", $callable);
+
             return new ReflectionMethod($class, $method);
         }
 
         if ( is_array($callable) ) {
             list($class, $method) = $callable;
+
             return new ReflectionMethod($class, $method);
         }
 
@@ -39,21 +41,23 @@ class Util
             if ($callable instanceof Closure) {
                 return new ReflectionFunction($callable);
             }
+
             return new ReflectionMethod($callable, '__invoke');
         }
     }
 
     /**
      * Returns the function parameters as a dictionary with name => default value
-     * @param ReflectionFunctionAbstract $r
+     * @param  ReflectionFunctionAbstract $r
      * @return array
      */
     public static function getParameters(ReflectionFunctionAbstract $r)
     {
         $parameters = array();
-        foreach($r->getParameters() as $p) {
+        foreach ($r->getParameters() as $p) {
             $parameters[$p->getName()] = $p->isDefaultValueAvailable() ? $p->getDefaultValue() : null;
         }
+
         return $parameters;
     }
 
