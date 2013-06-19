@@ -6,6 +6,7 @@
 
 // utiliza o autoload do composer, para auto carregar as classes
 require_once 'vendor/autoload.php';
+require_once 'helpers.php';
 
 error_reporting(E_ALL);
 
