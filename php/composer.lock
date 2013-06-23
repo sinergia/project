@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "febe334e5bbe134675e1a3d9536bd0c3",
+    "hash": "263caea15fc40c88134380aca897b8f0",
     "packages": [
         {
             "name": "analog/analog",
@@ -37,7 +37,8 @@
                 {
                     "name": "Johnny Broadway",
                     "email": "johnny@johnnybroadway.com",
-                    "homepage": "http://www.johnnybroadway.com/"
+                    "homepage": "http://www.johnnybroadway.com/",
+                    "role": "Main Developer"
                 }
             ],
             "description": "PHP 5.3+ micro logging class that can be extended via closures. Includes several pre-built handlers including file, mail, syslog, HTTP post, and MongoDB.",
@@ -150,7 +151,7 @@
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [
 
     ],
