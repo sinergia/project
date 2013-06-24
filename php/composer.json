@@ -15,5 +15,9 @@
     "require": {
         "analog/analog": "1.0.3",
         "filp/whoops": "1.0.4"
-    }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
 }
