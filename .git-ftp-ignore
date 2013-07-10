@@ -12,6 +12,7 @@ php/bin/.*
 arquivos/
 teste\.php
 README\.md
+TODO\.txt
 cli-server\.php
 .*/tests/.*
 .*/test/.*
