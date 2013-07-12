@@ -1,6 +1,7 @@
 {
     "name": "empresa/projeto",
     "description": "Projeto",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Marcos Neves",
