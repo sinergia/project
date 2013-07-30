@@ -11,7 +11,8 @@ composer\.lock
 php/bin/.*
 arquivos/
 teste\.php
-README\.md
+README\.txt
+TODO\.txt
 cli-server\.php
 .*/tests/.*
 .*/test/.*
