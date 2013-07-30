@@ -4,3 +4,4 @@
 /assets/vendor/
 /php/vendor/
 /tmp/
+php/composer.lock
