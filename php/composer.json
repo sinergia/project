@@ -1,6 +1,7 @@
 {
     "name": "empresa/projeto",
     "description": "Projeto",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Marcos Neves",
@@ -12,9 +13,16 @@
             "": "lib/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sinergia/info.git"
+        }
+    ],
     "require": {
         "analog/analog": "1.0.3",
-        "filp/whoops": "1.0.4"
+        "filp/whoops": "1.0.4",
+        "sinergia/info": "dev-master"
     },
     "config": {
         "preferred-install": "dist"

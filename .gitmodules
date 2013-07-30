@@ -1,6 +1,3 @@
-[submodule "phpinfo"]
-	path = phpinfo
-	url = /Users/neves/Dropbox/github/phpinfo.git
 [submodule "php/lib/Sinergia"]
 	path = php/lib/Sinergia
 	url = /Users/neves/Dropbox/github/sinergia.git
