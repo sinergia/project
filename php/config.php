@@ -10,10 +10,10 @@ require_once 'helpers.php';
 
 error_reporting(E_ALL);
 
-\Sinergia\Error::toException();
-\Sinergia\Error::enableDefaultExceptionHandler();
+Sinergia\Sinergia\Error::toException();
+Sinergia\Sinergia\Error::enableDefaultExceptionHandler();
 
-\Analog\Analog::handler( \Analog\Handler\ChromeLogger::init() );
+Analog\Analog::handler( Analog\Handler\ChromeLogger::init() );
 
 set_include_path(__DIR__.'/tpl');
 

@@ -17,12 +17,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/sinergia/info.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sinergia/sinergia.git"
         }
     ],
     "require": {
         "analog/analog": "1.0.3",
         "filp/whoops": "1.0.4",
-        "sinergia/info": "dev-master"
+        "sinergia/sinergia": "dev-master",
+        "sinergia/info": "dev-master",
+        "sinergia/gd": "dev-master"
     },
     "config": {
         "preferred-install": "dist"

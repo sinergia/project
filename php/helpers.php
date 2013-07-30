@@ -5,5 +5,5 @@
 function debug($message)
 {
     $message = var_export($message, true);
-    \Analog\Analog::debug($message);
+    Analog\Analog::debug($message);
 }

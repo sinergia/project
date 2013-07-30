@@ -2,8 +2,8 @@
 
 namespace App;
 
-use Sinergia\Helpers as H;
-use Sinergia\Request;
+use Sinergia\Sinergia\Helpers as H;
+use Sinergia\Sinergia\Request;
 
 class App
 {
