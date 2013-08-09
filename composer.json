@@ -33,6 +33,7 @@
         "php": ">=5.3.7",
         "analog/analog": "1.0.3",
         "filp/whoops": "1.0.4",
+        "sinergia/php-forward-compat": "dev-master",
         "sinergia/sinergia": "dev-master",
         "sinergia/info": "dev-master",
         "sinergia/gd": "dev-master"
