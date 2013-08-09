@@ -3,6 +3,7 @@
 \.gitmodules
 \.gitkeep
 \.php_cs
+\.travis\.yml
 Guardfile
 Procfile
 component\.json
