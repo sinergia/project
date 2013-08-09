@@ -39,11 +39,11 @@
     },
     "config": {
         "preferred-install": "dist",
-        "vendor-dir": "vendor"
+        "vendor-dir": "php/vendor"
     },
     "scripts": {
-        "post-update-cmd":  ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf vendor/**/**/.git"],
-        "post-install-cmd": ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf vendor/**/**/.git"]
+        "post-update-cmd":  ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf php/vendor/**/**/.git"],
+        "post-install-cmd": ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf php/vendor/**/**/.git"]
     },
     "minimum-stability": "dev"
 }

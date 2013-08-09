@@ -1,7 +1,7 @@
 .idea/
 /_src/
 /arquivos/
+/tmp/
 /assets/vendor/
 /php/vendor/
-/tmp/
-php/composer.lock
+composer.lock
