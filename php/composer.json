@@ -1,7 +1,8 @@
 {
-    "name": "empresa/projeto",
+    "name": "vendor/project",
     "description": "Projeto",
     "license": "proprietary",
+    "type": "project",
     "authors": [
         {
             "name": "Marcos Neves",
@@ -11,7 +12,8 @@
     "autoload": {
         "psr-0": {
             "": "lib/"
-        }
+        },
+        "files": []
     },
     "repositories": [
         {
@@ -21,9 +23,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/sinergia/sinergia.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sinergia/gd.git"
         }
     ],
     "require": {
+        "php": ">=5.3.7",
         "analog/analog": "1.0.3",
         "filp/whoops": "1.0.4",
         "sinergia/sinergia": "dev-master",
@@ -31,7 +38,12 @@
         "sinergia/gd": "dev-master"
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "vendor-dir": "vendor"
+    },
+    "scripts": {
+        "post-update-cmd":  ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf vendor/**/**/.git"],
+        "post-install-cmd": ["echo [NOTICE] Deleting all .git dirs inside vendor", "rm -rf vendor/**/**/.git"]
     },
     "minimum-stability": "dev"
 }
