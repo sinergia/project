@@ -5,3 +5,4 @@
 /assets/vendor/
 /php/vendor/
 composer.lock
+*.orig
