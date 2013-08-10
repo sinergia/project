@@ -5,7 +5,6 @@
 <?php include '_navbar.php' ?>
 
 <div class="container">
-    <h1>Conteúdo Aqui</h1>
 
     <?= @$TPL ?>
 
