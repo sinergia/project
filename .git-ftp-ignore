@@ -4,6 +4,9 @@
 \.gitkeep
 \.php_cs
 \.travis\.yml
+\.editorconfig
+\.bowerrc
+bower\.json
 Guardfile
 Procfile
 component\.json
