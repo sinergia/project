@@ -4,6 +4,10 @@ AddType text/cache-manifest .appcache
     Options -MultiViews
     RewriteEngine On
 
+    # redirect root para /index.html
+    RewriteCond index.html -f
+    RewriteRule ^$ - [L]
+
     # Determine the RewriteBase automatically and set it as environment variable.
     # Used with Apache virtual alias or subdirectory project.
     RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
