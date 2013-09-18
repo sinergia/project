@@ -2,6 +2,4 @@
 
 require_once 'php/vendor/autoload.php';
 
-$info = new \Sinergia\Info\FrontController();
-
-$info->run();
+Sinergia\Info\FrontController::run();
